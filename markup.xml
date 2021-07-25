@@ -1,0 +1,60 @@
+<ul class="graph-diagram-markup" data-internal-scale="0.63" data-external-scale="1">
+  <li class="node" data-node-id="0" data-x="-21.36174733582935" data-y="-198.07734819873687">
+    <span class="caption">driver</span><dl class="properties"><dt>driver</dt><dd>String</dd><dt>driver_nationality</dt><dd>String</dd><dt>driver_dob</dt><dd>Date</dd><dt>driver_won</dt><dd>Boolean</dd></dl></li>
+  <li class="node" data-node-id="1" data-x="972.2930018449395" data-y="-456.6727026717829">
+    <span class="caption">country</span><dl class="properties"><dt>country</dt><dd>String</dd></dl></li>
+  <li class="node" data-node-id="2" data-x="-620.8812319743416" data-y="-406.4967461057977">
+    <span class="caption">grandPrix</span><dl class="properties"><dt>gp_name</dt><dd>String</dd><dt>year</dt><dd>Int</dd><dt>gp_date</dt><dd>Date</dd><dt>country</dt><dd>String</dd></dl></li>
+  <li class="node" data-node-id="3" data-x="-434.07284254311077" data-y="-683.542429806473">
+    <span class="caption">circuit</span><dl class="properties"><dt>circuit_name</dt><dd>String</dd><dt>circuit_location</dt><dd>String</dd><dt>circuit_country</dt><dd>String</dd></dl></li>
+  <li class="node" data-node-id="4" data-x="870.2896313527756" data-y="104.2043907742334">
+    <span class="caption">rank</span><dl class="properties"><dt>rank</dt><dd>Int</dd></dl></li>
+  <li class="node" data-node-id="5" data-x="-736.5486448372787" data-y="-115.11008217520967">
+    <span class="caption">points</span><dl class="properties"><dt>points</dt><dd>Int</dd></dl></li>
+  <li class="node" data-node-id="6" data-x="-379.99847296538746" data-y="264.65299618439116">
+    <span class="caption">car</span><dl class="properties"><dt>constructor_nationality</dt><dd>String</dd><dt>constructor_name</dt><dd>String</dd></dl></li>
+  <li class="node" data-node-id="7" data-x="485.1309031465207" data-y="-683.542429806473">
+    <span class="caption">year</span><dl class="properties"><dt>year</dt><dd>Int</dd></dl></li>
+  <li class="relationship" data-from="0" data-to="1">
+    <span class="type">FROM_COUNTRY</span>
+  </li>
+  <li class="relationship" data-from="0" data-to="2">
+    <span class="type">PART_OF</span>
+  </li>
+  <li class="relationship" data-from="0" data-to="3">
+    <span class="type">PARTICIPATES_IN</span>
+  </li>
+  <li class="relationship" data-from="0" data-to="4">
+    <span class="type">POSITIONED_AT</span>
+  </li>
+  <li class="relationship" data-from="0" data-to="5">
+    <span class="type">DRIVER_ACCUMULATED_POINTS</span>
+  </li>
+  <li class="relationship" data-from="0" data-to="6">
+    <span class="type">DRIVES</span>
+  </li>
+  <li class="relationship" data-from="3" data-to="7">
+    <span class="type">ORGANIZED_IN</span>
+  </li>
+  <li class="relationship" data-from="2" data-to="7">
+    <span class="type">HAPPENED_IN</span>
+  </li>
+  <li class="relationship" data-from="6" data-to="4">
+    <span class="type">PLACED_AT</span>
+  </li>
+  <li class="relationship" data-from="2" data-to="1">
+    <span class="type">ORIGINS_FROM</span>
+  </li>
+  <li class="relationship" data-from="3" data-to="1">
+    <span class="type">ORGANIZED_AT</span>
+  </li>
+  <li class="relationship" data-from="2" data-to="3">
+    <span class="type">HAS_CIRCUITS</span>
+  </li>
+  <li class="relationship" data-from="6" data-to="1">
+    <span class="type">MANUFACTURED_IN</span>
+  </li>
+  <li class="relationship" data-from="6" data-to="5">
+    <span class="type">CONSTRUCTOR_ACCUMULATED_POINTS</span>
+  </li>
+</ul>

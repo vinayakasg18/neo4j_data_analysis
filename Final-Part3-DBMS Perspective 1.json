@@ -1,0 +1,643 @@
+{
+    "name": "Final-Part3-DBMS Perspective 1",
+    "id": "0400acc0-a96b-11eb-801a-dd14b7bdd63a",
+    "categories": [
+        {
+            "id": 1,
+            "name": "GrapndPrix",
+            "color": "#FFE081",
+            "size": 1,
+            "icon": "no-icon",
+            "labels": [
+                "GrapndPrix"
+            ],
+            "properties": [
+                {
+                    "name": "date",
+                    "exclude": false,
+                    "isCaption": false,
+                    "dataType": "string"
+                },
+                {
+                    "name": "year",
+                    "exclude": false,
+                    "isCaption": false,
+                    "dataType": "string"
+                },
+                {
+                    "name": "name",
+                    "exclude": false,
+                    "isCaption": true,
+                    "dataType": "string"
+                }
+            ],
+            "caption": [
+                ""
+            ],
+            "createdAt": 1619756265894,
+            "lastEditedAt": 1619756265894
+        },
+        {
+            "id": 2,
+            "name": "Driver",
+            "color": "#C990C0",
+            "size": 1,
+            "icon": "no-icon",
+            "labels": [
+                "Driver"
+            ],
+            "properties": [
+                {
+                    "name": "name",
+                    "exclude": false,
+                    "isCaption": true,
+                    "dataType": "string"
+                },
+                {
+                    "name": "notionality",
+                    "exclude": false,
+                    "isCaption": false,
+                    "dataType": "string"
+                },
+                {
+                    "name": "dob",
+                    "exclude": false,
+                    "isCaption": false,
+                    "dataType": "string"
+                },
+                {
+                    "name": "driverWin",
+                    "exclude": false,
+                    "isCaption": false,
+                    "dataType": "string"
+                }
+            ],
+            "caption": [
+                ""
+            ],
+            "createdAt": 1619756265894,
+            "lastEditedAt": 1619756265894
+        },
+        {
+            "id": 3,
+            "name": "CircuitName",
+            "color": "#F79767",
+            "size": 1,
+            "icon": "no-icon",
+            "labels": [
+                "CircuitName"
+            ],
+            "properties": [
+                {
+                    "name": "name",
+                    "exclude": false,
+                    "isCaption": true,
+                    "dataType": "string"
+                },
+                {
+                    "name": "country",
+                    "exclude": false,
+                    "isCaption": false,
+                    "dataType": "string"
+                },
+                {
+                    "name": "location",
+                    "exclude": false,
+                    "isCaption": false,
+                    "dataType": "string"
+                }
+            ],
+            "caption": [
+                ""
+            ],
+            "createdAt": 1619756265894,
+            "lastEditedAt": 1619756265894
+        },
+        {
+            "id": 4,
+            "name": "Result",
+            "color": "#57C7E3",
+            "size": 1,
+            "icon": "no-icon",
+            "labels": [
+                "Result"
+            ],
+            "properties": [
+                {
+                    "name": "id",
+                    "exclude": false,
+                    "isCaption": true,
+                    "dataType": "string"
+                }
+            ],
+            "caption": [
+                ""
+            ],
+            "createdAt": 1619756265894,
+            "lastEditedAt": 1619756265894
+        },
+        {
+            "id": 5,
+            "name": "Points",
+            "color": "#F16667",
+            "size": 1,
+            "icon": "no-icon",
+            "labels": [
+                "Points"
+            ],
+            "properties": [
+                {
+                    "name": "constructorPoints",
+                    "exclude": false,
+                    "isCaption": true,
+                    "dataType": "bigint"
+                },
+                {
+                    "name": "driverPoints",
+                    "exclude": false,
+                    "isCaption": false,
+                    "dataType": "bigint"
+                }
+            ],
+            "caption": [
+                ""
+            ],
+            "createdAt": 1619756265894,
+            "lastEditedAt": 1619756265894
+        },
+        {
+            "id": 6,
+            "name": "Rank",
+            "color": "#D9C8AE",
+            "size": 1,
+            "icon": "no-icon",
+            "labels": [
+                "Rank"
+            ],
+            "properties": [
+                {
+                    "name": "driverRank",
+                    "exclude": false,
+                    "isCaption": true,
+                    "dataType": "string"
+                },
+                {
+                    "name": "constructorRank",
+                    "exclude": false,
+                    "isCaption": false,
+                    "dataType": "string"
+                }
+            ],
+            "caption": [
+                ""
+            ],
+            "createdAt": 1619756265894,
+            "lastEditedAt": 1619756265894
+        },
+        {
+            "id": 7,
+            "name": "Constructor",
+            "color": "#8DCC93",
+            "size": 1,
+            "icon": "no-icon",
+            "labels": [
+                "Constructor"
+            ],
+            "properties": [
+                {
+                    "name": "name",
+                    "exclude": false,
+                    "isCaption": true,
+                    "dataType": "string"
+                },
+                {
+                    "name": "country",
+                    "exclude": false,
+                    "isCaption": false,
+                    "dataType": "string"
+                }
+            ],
+            "caption": [
+                ""
+            ],
+            "createdAt": 1619756265894,
+            "lastEditedAt": 1619756265894
+        },
+        {
+            "id": 8,
+            "name": "Status",
+            "color": "#ECB5C9",
+            "size": 1,
+            "icon": "no-icon",
+            "labels": [
+                "Status"
+            ],
+            "properties": [
+                {
+                    "name": "stat",
+                    "exclude": false,
+                    "isCaption": true,
+                    "dataType": "string"
+                }
+            ],
+            "caption": [
+                ""
+            ],
+            "createdAt": 1619756265894,
+            "lastEditedAt": 1619756265894
+        },
+        {
+            "id": 9,
+            "name": "Laps",
+            "color": "#4C8EDA",
+            "size": 1,
+            "icon": "no-icon",
+            "labels": [
+                "Laps"
+            ],
+            "properties": [
+                {
+                    "name": "laps",
+                    "exclude": false,
+                    "isCaption": true,
+                    "dataType": "string"
+                }
+            ],
+            "caption": [
+                ""
+            ],
+            "createdAt": 1619756265894,
+            "lastEditedAt": 1619756265894
+        }
+    ],
+    "labels": {
+        "Driver": [
+            {
+                "propertyKey": "name",
+                "type": "Driver",
+                "dataType": "string"
+            },
+            {
+                "propertyKey": "notionality",
+                "type": "Driver",
+                "dataType": "string"
+            },
+            {
+                "propertyKey": "dob",
+                "type": "Driver",
+                "dataType": "string"
+            },
+            {
+                "propertyKey": "driverWin",
+                "type": "Driver",
+                "dataType": "string"
+            }
+        ],
+        "CircuitName": [
+            {
+                "propertyKey": "name",
+                "type": "CircuitName",
+                "dataType": "string"
+            },
+            {
+                "propertyKey": "country",
+                "type": "CircuitName",
+                "dataType": "string"
+            },
+            {
+                "propertyKey": "location",
+                "type": "CircuitName",
+                "dataType": "string"
+            }
+        ],
+        "Result": [
+            {
+                "propertyKey": "id",
+                "type": "Result",
+                "dataType": "string"
+            }
+        ],
+        "Points": [
+            {
+                "propertyKey": "constructorPoints",
+                "type": "Points",
+                "dataType": "bigint"
+            },
+            {
+                "propertyKey": "driverPoints",
+                "type": "Points",
+                "dataType": "bigint"
+            }
+        ],
+        "Rank": [
+            {
+                "propertyKey": "driverRank",
+                "type": "Rank",
+                "dataType": "string"
+            },
+            {
+                "propertyKey": "constructorRank",
+                "type": "Rank",
+                "dataType": "string"
+            }
+        ],
+        "Constructor": [
+            {
+                "propertyKey": "name",
+                "type": "Constructor",
+                "dataType": "string"
+            },
+            {
+                "propertyKey": "country",
+                "type": "Constructor",
+                "dataType": "string"
+            }
+        ],
+        "Status": [
+            {
+                "propertyKey": "stat",
+                "type": "Status",
+                "dataType": "string"
+            }
+        ],
+        "Laps": [
+            {
+                "propertyKey": "laps",
+                "type": "Laps",
+                "dataType": "string"
+            }
+        ],
+        "GrapndPrix": [
+            {
+                "propertyKey": "date",
+                "type": "GrapndPrix",
+                "dataType": "string"
+            },
+            {
+                "propertyKey": "year",
+                "type": "GrapndPrix",
+                "dataType": "string"
+            },
+            {
+                "propertyKey": "name",
+                "type": "GrapndPrix",
+                "dataType": "string"
+            }
+        ],
+        "Country": [],
+        "CircuitLocation": [],
+        "resultId": []
+    },
+    "relationshipTypes": [
+        {
+            "properties": [],
+            "name": "HAS_CIRCUITS",
+            "id": "HAS_CIRCUITS"
+        },
+        {
+            "properties": [],
+            "name": "CURRENT_STATUS",
+            "id": "CURRENT_STATUS"
+        },
+        {
+            "properties": [
+                {
+                    "propertyKey": "resultid",
+                    "type": "RESULT",
+                    "dataType": "string"
+                }
+            ],
+            "name": "RESULT",
+            "id": "RESULT"
+        },
+        {
+            "properties": [],
+            "name": "DRIVES",
+            "id": "DRIVES"
+        },
+        {
+            "properties": [],
+            "name": "PARTICIPATES_IN",
+            "id": "PARTICIPATES_IN"
+        },
+        {
+            "properties": [],
+            "name": "HAS_POINTS",
+            "id": "HAS_POINTS"
+        },
+        {
+            "properties": [],
+            "name": "RANKED_AT",
+            "id": "RANKED_AT"
+        },
+        {
+            "properties": [],
+            "name": "PART_OF",
+            "id": "PART_OF"
+        },
+        {
+            "properties": [],
+            "name": "COMPLETED_LAPS",
+            "id": "COMPLETED_LAPS"
+        },
+        {
+            "properties": [],
+            "name": "CONSTRUCTOR_RANKED_AT",
+            "id": "CONSTRUCTOR_RANKED_AT"
+        },
+        {
+            "properties": [],
+            "name": "CONSTRUCTOR_POINTS",
+            "id": "CONSTRUCTOR_POINTS"
+        },
+        {
+            "properties": [],
+            "name": "CONSTRUCTOR_COMPLETED_LAPS",
+            "id": "CONSTRUCTOR_COMPLETED_LAPS"
+        }
+    ],
+    "palette": {
+        "colors": [
+            "#FFE081",
+            "#C990C0",
+            "#F79767",
+            "#57C7E3",
+            "#F16667",
+            "#D9C8AE",
+            "#8DCC93",
+            "#ECB5C9",
+            "#4C8EDA",
+            "#FFC454",
+            "#DA7194",
+            "#569480",
+            "#848484",
+            "#D9D9D9"
+        ],
+        "currentIndex": 9
+    },
+    "createdAt": 1619756265868,
+    "lastEditedAt": 1619756265868,
+    "templates": [],
+    "hiddenRelationshipTypes": [],
+    "hiddenCategories": [],
+    "hideUncategorisedData": false,
+    "parentPerspectiveId": null,
+    "metadata": {
+        "pathSegments": [
+            {
+                "source": "Driver",
+                "relationshipType": "HAS_POINTS",
+                "target": "Points"
+            },
+            {
+                "source": "Driver",
+                "relationshipType": "RANKED_AT",
+                "target": "Rank"
+            },
+            {
+                "source": "Constructor",
+                "relationshipType": "CONSTRUCTOR_POINTS",
+                "target": "Points"
+            },
+            {
+                "source": "Constructor",
+                "relationshipType": "CONSTRUCTOR_COMPLETED_LAPS",
+                "target": "Laps"
+            },
+            {
+                "source": "GrapndPrix",
+                "relationshipType": "CURRENT_STATUS",
+                "target": "Status"
+            },
+            {
+                "source": "Driver",
+                "relationshipType": "COMPLETED_LAPS",
+                "target": "Laps"
+            },
+            {
+                "source": "Driver",
+                "relationshipType": "DRIVES",
+                "target": "Constructor"
+            },
+            {
+                "source": "Constructor",
+                "relationshipType": "CONSTRUCTOR_RANKED_AT",
+                "target": "Rank"
+            },
+            {
+                "source": "GrapndPrix",
+                "relationshipType": "HAS_CIRCUITS",
+                "target": "CircuitName"
+            },
+            {
+                "source": "Driver",
+                "relationshipType": "PARTICIPATES_IN",
+                "target": "GrapndPrix"
+            },
+            {
+                "source": "Driver",
+                "relationshipType": "PART_OF",
+                "target": "CircuitName"
+            },
+            {
+                "source": "GrapndPrix",
+                "relationshipType": "RESULT",
+                "target": "Result"
+            }
+        ],
+        "indexes": [
+            {
+                "label": "Driver",
+                "type": "native",
+                "isMetadataPropIndex": true,
+                "propertyKeys": [
+                    "name",
+                    "notionality",
+                    "dob",
+                    "driverWin"
+                ]
+            },
+            {
+                "label": "CircuitName",
+                "type": "native",
+                "isMetadataPropIndex": true,
+                "propertyKeys": [
+                    "name",
+                    "country",
+                    "location"
+                ]
+            },
+            {
+                "label": "Points",
+                "type": "native",
+                "isMetadataPropIndex": true,
+                "propertyKeys": [
+                    "constructorPoints",
+                    "driverPoints"
+                ]
+            },
+            {
+                "label": "Rank",
+                "type": "native",
+                "isMetadataPropIndex": true,
+                "propertyKeys": [
+                    "driverRank",
+                    "constructorRank"
+                ]
+            },
+            {
+                "label": "Constructor",
+                "type": "native",
+                "isMetadataPropIndex": true,
+                "propertyKeys": [
+                    "name",
+                    "country"
+                ]
+            },
+            {
+                "label": "Status",
+                "type": "native",
+                "isMetadataPropIndex": true,
+                "propertyKeys": [
+                    "stat"
+                ]
+            },
+            {
+                "label": "Laps",
+                "type": "native",
+                "isMetadataPropIndex": true,
+                "propertyKeys": [
+                    "laps"
+                ]
+            },
+            {
+                "label": "GrapndPrix",
+                "type": "native",
+                "isMetadataPropIndex": true,
+                "propertyKeys": [
+                    "date",
+                    "year",
+                    "name"
+                ]
+            }
+        ],
+        "stats": {
+            "labels": {},
+            "relationshipTypes": {
+                "HAS_CIRCUITS": 946,
+                "CURRENT_STATUS": 2814,
+                "RESULT": 3500,
+                "DRIVES": 1171,
+                "PARTICIPATES_IN": 3499,
+                "HAS_POINTS": 1098,
+                "RANKED_AT": 2954,
+                "PART_OF": 2672,
+                "COMPLETED_LAPS": 2908,
+                "CONSTRUCTOR_RANKED_AT": 2296,
+                "CONSTRUCTOR_POINTS": 411,
+                "CONSTRUCTOR_COMPLETED_LAPS": 1958
+            }
+        }
+    },
+    "version": "1.6.1"
+}
